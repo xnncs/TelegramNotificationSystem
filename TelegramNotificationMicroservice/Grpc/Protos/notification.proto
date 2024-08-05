@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option csharp_namespace = "TelegramNotificationServiceApp";
+
+package notification;
+
+
+service TelegramNotificationService {
+  rpc SendNotification (SendNotificationRequest) returns (SendNotificationResponse);
+}
+
+enum NotificationStatusCodes {
+  Success = 0;
+  NoUserExists = 1;
+  WrongRequestFormat = 2;
+  ServerInternalError = 3;
+}
+
+message SendNotificationResponse {
+    NotificationStatusCodes statusCode = 1;
+}
+
+message SendNotificationRequest {
+  string user_id = 1;
+  string message = 2;
+}

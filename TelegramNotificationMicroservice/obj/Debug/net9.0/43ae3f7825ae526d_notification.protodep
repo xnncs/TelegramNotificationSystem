@@ -1,0 +1,2 @@
+obj\Debug\net9.0\Grpc\Protos/Notification.cs \
+obj\Debug\net9.0\Grpc\Protos/NotificationGrpc.cs: Grpc/Protos/notification.proto
