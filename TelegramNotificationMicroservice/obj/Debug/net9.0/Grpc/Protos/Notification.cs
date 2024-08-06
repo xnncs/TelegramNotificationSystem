@@ -25,20 +25,25 @@ namespace TelegramNotificationServiceApp {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "Ch5HcnBjL1Byb3Rvcy9ub3RpZmljYXRpb24ucHJvdG8SDG5vdGlmaWNhdGlv",
-            "biJVChhTZW5kTm90aWZpY2F0aW9uUmVzcG9uc2USOQoKc3RhdHVzQ29kZRgB",
-            "IAEoDjIlLm5vdGlmaWNhdGlvbi5Ob3RpZmljYXRpb25TdGF0dXNDb2RlcyI7",
-            "ChdTZW5kTm90aWZpY2F0aW9uUmVxdWVzdBIPCgd1c2VyX2lkGAEgASgJEg8K",
-            "B21lc3NhZ2UYAiABKAkqaQoXTm90aWZpY2F0aW9uU3RhdHVzQ29kZXMSCwoH",
-            "U3VjY2VzcxAAEhAKDE5vVXNlckV4aXN0cxABEhYKEldyb25nUmVxdWVzdEZv",
-            "cm1hdBACEhcKE1NlcnZlckludGVybmFsRXJyb3IQAzKAAQobVGVsZWdyYW1O",
-            "b3RpZmljYXRpb25TZXJ2aWNlEmEKEFNlbmROb3RpZmljYXRpb24SJS5ub3Rp",
-            "ZmljYXRpb24uU2VuZE5vdGlmaWNhdGlvblJlcXVlc3QaJi5ub3RpZmljYXRp",
-            "b24uU2VuZE5vdGlmaWNhdGlvblJlc3BvbnNlQiGqAh5UZWxlZ3JhbU5vdGlm",
-            "aWNhdGlvblNlcnZpY2VBcHBiBnByb3RvMw=="));
+            "biJAChtTZW5kQUxvdE5vdGlmaWNhdGlvblJlcXVlc3QSEAoIdXNlcl9pZHMY",
+            "ASADKAkSDwoHbWVzc2FnZRgCIAEoCSJmChhTZW5kTm90aWZpY2F0aW9uUmVz",
+            "cG9uc2USOQoKc3RhdHVzQ29kZRgBIAEoDjIlLm5vdGlmaWNhdGlvbi5Ob3Rp",
+            "ZmljYXRpb25TdGF0dXNDb2RlcxIPCgd1c2VyX2lkGAIgASgJIjsKF1NlbmRO",
+            "b3RpZmljYXRpb25SZXF1ZXN0Eg8KB3VzZXJfaWQYASABKAkSDwoHbWVzc2Fn",
+            "ZRgCIAEoCSppChdOb3RpZmljYXRpb25TdGF0dXNDb2RlcxILCgdTdWNjZXNz",
+            "EAASEAoMTm9Vc2VyRXhpc3RzEAESFgoSV3JvbmdSZXF1ZXN0Rm9ybWF0EAIS",
+            "FwoTU2VydmVySW50ZXJuYWxFcnJvchADMu4BChtUZWxlZ3JhbU5vdGlmaWNh",
+            "dGlvblNlcnZpY2USYQoQU2VuZE5vdGlmaWNhdGlvbhIlLm5vdGlmaWNhdGlv",
+            "bi5TZW5kTm90aWZpY2F0aW9uUmVxdWVzdBomLm5vdGlmaWNhdGlvbi5TZW5k",
+            "Tm90aWZpY2F0aW9uUmVzcG9uc2USbAoVU2VuZEFMb3ROb3RpZmljYXRpb25z",
+            "Eikubm90aWZpY2F0aW9uLlNlbmRBTG90Tm90aWZpY2F0aW9uUmVxdWVzdBom",
+            "Lm5vdGlmaWNhdGlvbi5TZW5kTm90aWZpY2F0aW9uUmVzcG9uc2UwAUIhqgIe",
+            "VGVsZWdyYW1Ob3RpZmljYXRpb25TZXJ2aWNlQXBwYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::TelegramNotificationServiceApp.NotificationStatusCodes), }, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::TelegramNotificationServiceApp.SendNotificationResponse), global::TelegramNotificationServiceApp.SendNotificationResponse.Parser, new[]{ "StatusCode" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::TelegramNotificationServiceApp.SendALotNotificationRequest), global::TelegramNotificationServiceApp.SendALotNotificationRequest.Parser, new[]{ "UserIds", "Message" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::TelegramNotificationServiceApp.SendNotificationResponse), global::TelegramNotificationServiceApp.SendNotificationResponse.Parser, new[]{ "StatusCode", "UserId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::TelegramNotificationServiceApp.SendNotificationRequest), global::TelegramNotificationServiceApp.SendNotificationRequest.Parser, new[]{ "UserId", "Message" }, null, null, null, null)
           }));
     }
@@ -57,6 +62,222 @@ namespace TelegramNotificationServiceApp {
 
   #region Messages
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class SendALotNotificationRequest : pb::IMessage<SendALotNotificationRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<SendALotNotificationRequest> _parser = new pb::MessageParser<SendALotNotificationRequest>(() => new SendALotNotificationRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<SendALotNotificationRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::TelegramNotificationServiceApp.NotificationReflection.Descriptor.MessageTypes[0]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public SendALotNotificationRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public SendALotNotificationRequest(SendALotNotificationRequest other) : this() {
+      userIds_ = other.userIds_.Clone();
+      message_ = other.message_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public SendALotNotificationRequest Clone() {
+      return new SendALotNotificationRequest(this);
+    }
+
+    /// <summary>Field number for the "user_ids" field.</summary>
+    public const int UserIdsFieldNumber = 1;
+    private static readonly pb::FieldCodec<string> _repeated_userIds_codec
+        = pb::FieldCodec.ForString(10);
+    private readonly pbc::RepeatedField<string> userIds_ = new pbc::RepeatedField<string>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<string> UserIds {
+      get { return userIds_; }
+    }
+
+    /// <summary>Field number for the "message" field.</summary>
+    public const int MessageFieldNumber = 2;
+    private string message_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Message {
+      get { return message_; }
+      set {
+        message_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as SendALotNotificationRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(SendALotNotificationRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if(!userIds_.Equals(other.userIds_)) return false;
+      if (Message != other.Message) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      hash ^= userIds_.GetHashCode();
+      if (Message.Length != 0) hash ^= Message.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      userIds_.WriteTo(output, _repeated_userIds_codec);
+      if (Message.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Message);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      userIds_.WriteTo(ref output, _repeated_userIds_codec);
+      if (Message.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Message);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      size += userIds_.CalculateSize(_repeated_userIds_codec);
+      if (Message.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Message);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(SendALotNotificationRequest other) {
+      if (other == null) {
+        return;
+      }
+      userIds_.Add(other.userIds_);
+      if (other.Message.Length != 0) {
+        Message = other.Message;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            userIds_.AddEntriesFrom(input, _repeated_userIds_codec);
+            break;
+          }
+          case 18: {
+            Message = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            userIds_.AddEntriesFrom(ref input, _repeated_userIds_codec);
+            break;
+          }
+          case 18: {
+            Message = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class SendNotificationResponse : pb::IMessage<SendNotificationResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -71,7 +292,7 @@ namespace TelegramNotificationServiceApp {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::TelegramNotificationServiceApp.NotificationReflection.Descriptor.MessageTypes[0]; }
+      get { return global::TelegramNotificationServiceApp.NotificationReflection.Descriptor.MessageTypes[1]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -92,6 +313,7 @@ namespace TelegramNotificationServiceApp {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public SendNotificationResponse(SendNotificationResponse other) : this() {
       statusCode_ = other.statusCode_;
+      userId_ = other.userId_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -113,6 +335,18 @@ namespace TelegramNotificationServiceApp {
       }
     }
 
+    /// <summary>Field number for the "user_id" field.</summary>
+    public const int UserIdFieldNumber = 2;
+    private string userId_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string UserId {
+      get { return userId_; }
+      set {
+        userId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -129,6 +363,7 @@ namespace TelegramNotificationServiceApp {
         return true;
       }
       if (StatusCode != other.StatusCode) return false;
+      if (UserId != other.UserId) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -137,6 +372,7 @@ namespace TelegramNotificationServiceApp {
     public override int GetHashCode() {
       int hash = 1;
       if (StatusCode != global::TelegramNotificationServiceApp.NotificationStatusCodes.Success) hash ^= StatusCode.GetHashCode();
+      if (UserId.Length != 0) hash ^= UserId.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -159,6 +395,10 @@ namespace TelegramNotificationServiceApp {
         output.WriteRawTag(8);
         output.WriteEnum((int) StatusCode);
       }
+      if (UserId.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(UserId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -173,6 +413,10 @@ namespace TelegramNotificationServiceApp {
         output.WriteRawTag(8);
         output.WriteEnum((int) StatusCode);
       }
+      if (UserId.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(UserId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -185,6 +429,9 @@ namespace TelegramNotificationServiceApp {
       int size = 0;
       if (StatusCode != global::TelegramNotificationServiceApp.NotificationStatusCodes.Success) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) StatusCode);
+      }
+      if (UserId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(UserId);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -200,6 +447,9 @@ namespace TelegramNotificationServiceApp {
       }
       if (other.StatusCode != global::TelegramNotificationServiceApp.NotificationStatusCodes.Success) {
         StatusCode = other.StatusCode;
+      }
+      if (other.UserId.Length != 0) {
+        UserId = other.UserId;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -220,6 +470,10 @@ namespace TelegramNotificationServiceApp {
             StatusCode = (global::TelegramNotificationServiceApp.NotificationStatusCodes) input.ReadEnum();
             break;
           }
+          case 18: {
+            UserId = input.ReadString();
+            break;
+          }
         }
       }
     #endif
@@ -237,6 +491,10 @@ namespace TelegramNotificationServiceApp {
             break;
           case 8: {
             StatusCode = (global::TelegramNotificationServiceApp.NotificationStatusCodes) input.ReadEnum();
+            break;
+          }
+          case 18: {
+            UserId = input.ReadString();
             break;
           }
         }
@@ -261,7 +519,7 @@ namespace TelegramNotificationServiceApp {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::TelegramNotificationServiceApp.NotificationReflection.Descriptor.MessageTypes[1]; }
+      get { return global::TelegramNotificationServiceApp.NotificationReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

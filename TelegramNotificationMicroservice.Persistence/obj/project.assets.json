@@ -2639,11 +2639,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\code\\codes\\TelegramNotificationMicroservice\\TelegramNotificationMicroservice.Persistence\\TelegramNotificationMicroservice.Persistence.csproj",
+      "projectUniqueName": "D:\\code\\projects\\TelegramNotificationMicroservice\\TelegramNotificationMicroservice.Persistence\\TelegramNotificationMicroservice.Persistence.csproj",
       "projectName": "TelegramNotificationMicroservice.Persistence",
-      "projectPath": "D:\\code\\codes\\TelegramNotificationMicroservice\\TelegramNotificationMicroservice.Persistence\\TelegramNotificationMicroservice.Persistence.csproj",
+      "projectPath": "D:\\code\\projects\\TelegramNotificationMicroservice\\TelegramNotificationMicroservice.Persistence\\TelegramNotificationMicroservice.Persistence.csproj",
       "packagesPath": "C:\\Users\\anyon\\.nuget\\packages\\",
-      "outputPath": "D:\\code\\codes\\TelegramNotificationMicroservice\\TelegramNotificationMicroservice.Persistence\\obj\\",
+      "outputPath": "D:\\code\\projects\\TelegramNotificationMicroservice\\TelegramNotificationMicroservice.Persistence\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\anyon\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -2660,8 +2660,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\code\\codes\\TelegramNotificationMicroservice\\TelegramNotificationMicroservice.Core\\TelegramNotificationMicroservice.Core.csproj": {
-              "projectPath": "D:\\code\\codes\\TelegramNotificationMicroservice\\TelegramNotificationMicroservice.Core\\TelegramNotificationMicroservice.Core.csproj"
+            "D:\\code\\projects\\TelegramNotificationMicroservice\\TelegramNotificationMicroservice.Core\\TelegramNotificationMicroservice.Core.csproj": {
+              "projectPath": "D:\\code\\projects\\TelegramNotificationMicroservice\\TelegramNotificationMicroservice.Core\\TelegramNotificationMicroservice.Core.csproj"
             }
           }
         }

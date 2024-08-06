@@ -10,3 +10,16 @@ D:\code\codes\TelegramNotificationMicroservice\TelegramNotificationMicroservice.
 D:\code\codes\TelegramNotificationMicroservice\TelegramNotificationMicroservice.Core\obj\Debug\net9.0\refint\TelegramNotificationMicroservice.Core.dll
 D:\code\codes\TelegramNotificationMicroservice\TelegramNotificationMicroservice.Core\obj\Debug\net9.0\TelegramNotificationMicroservice.Core.pdb
 D:\code\codes\TelegramNotificationMicroservice\TelegramNotificationMicroservice.Core\obj\Debug\net9.0\ref\TelegramNotificationMicroservice.Core.dll
+D:\code\projects\TelegramNotificationMicroservice\TelegramNotificationMicroservice.Core\bin\Debug\net9.0\TelegramNotificationMicroservice.Core.deps.json
+D:\code\projects\TelegramNotificationMicroservice\TelegramNotificationMicroservice.Core\bin\Debug\net9.0\TelegramNotificationMicroservice.Core.dll
+D:\code\projects\TelegramNotificationMicroservice\TelegramNotificationMicroservice.Core\bin\Debug\net9.0\TelegramNotificationMicroservice.Core.pdb
+D:\code\projects\TelegramNotificationMicroservice\TelegramNotificationMicroservice.Core\obj\Debug\net9.0\TelegramNotificationMicroservice.Core.csproj.AssemblyReference.cache
+D:\code\projects\TelegramNotificationMicroservice\TelegramNotificationMicroservice.Core\obj\Debug\net9.0\TelegramNotificationMicroservice.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\code\projects\TelegramNotificationMicroservice\TelegramNotificationMicroservice.Core\obj\Debug\net9.0\TelegramNotificationMicroservice.Core.AssemblyInfoInputs.cache
+D:\code\projects\TelegramNotificationMicroservice\TelegramNotificationMicroservice.Core\obj\Debug\net9.0\TelegramNotificationMicroservice.Core.AssemblyInfo.cs
+D:\code\projects\TelegramNotificationMicroservice\TelegramNotificationMicroservice.Core\obj\Debug\net9.0\TelegramNotificationMicroservice.Core.csproj.CoreCompileInputs.cache
+D:\code\projects\TelegramNotificationMicroservice\TelegramNotificationMicroservice.Core\obj\Debug\net9.0\TelegramNotificationMicroservice.Core.sourcelink.json
+D:\code\projects\TelegramNotificationMicroservice\TelegramNotificationMicroservice.Core\obj\Debug\net9.0\TelegramNotificationMicroservice.Core.dll
+D:\code\projects\TelegramNotificationMicroservice\TelegramNotificationMicroservice.Core\obj\Debug\net9.0\refint\TelegramNotificationMicroservice.Core.dll
+D:\code\projects\TelegramNotificationMicroservice\TelegramNotificationMicroservice.Core\obj\Debug\net9.0\TelegramNotificationMicroservice.Core.pdb
+D:\code\projects\TelegramNotificationMicroservice\TelegramNotificationMicroservice.Core\obj\Debug\net9.0\ref\TelegramNotificationMicroservice.Core.dll

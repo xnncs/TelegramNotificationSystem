@@ -11,7 +11,7 @@ using TelegramUpdater.Hosting;
 
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 IServiceCollection services = builder.Services;
-IConfigurationManager configuration = builder.Configuration;
+ConfigurationManager configuration = builder.Configuration;
 
 services.AddLogging();
 services.AddGrpc();

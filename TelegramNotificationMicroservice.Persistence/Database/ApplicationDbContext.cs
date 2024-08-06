@@ -18,7 +18,7 @@ public sealed class ApplicationDbContext : DbContext
     
     
     public DbSet<TelegramUser> TelegramUsers { get; set; }
-    
+    public DbSet<TelegramNotification> TelegramNotifications { get; set; }
     
     
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -33,5 +33,6 @@ public sealed class ApplicationDbContext : DbContext
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.ApplyConfiguration(new TelegramUserConfiguration());
+        modelBuilder.ApplyConfiguration(new TelegramNotificationConfiguration());
     }
 }

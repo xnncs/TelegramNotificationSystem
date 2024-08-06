@@ -49,6 +49,8 @@ namespace TelegramNotificationServiceApp {
     static readonly grpc::Marshaller<global::TelegramNotificationServiceApp.SendNotificationRequest> __Marshaller_notification_SendNotificationRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::TelegramNotificationServiceApp.SendNotificationRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::TelegramNotificationServiceApp.SendNotificationResponse> __Marshaller_notification_SendNotificationResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::TelegramNotificationServiceApp.SendNotificationResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::TelegramNotificationServiceApp.SendALotNotificationRequest> __Marshaller_notification_SendALotNotificationRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::TelegramNotificationServiceApp.SendALotNotificationRequest.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::TelegramNotificationServiceApp.SendNotificationRequest, global::TelegramNotificationServiceApp.SendNotificationResponse> __Method_SendNotification = new grpc::Method<global::TelegramNotificationServiceApp.SendNotificationRequest, global::TelegramNotificationServiceApp.SendNotificationResponse>(
@@ -56,6 +58,14 @@ namespace TelegramNotificationServiceApp {
         __ServiceName,
         "SendNotification",
         __Marshaller_notification_SendNotificationRequest,
+        __Marshaller_notification_SendNotificationResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::TelegramNotificationServiceApp.SendALotNotificationRequest, global::TelegramNotificationServiceApp.SendNotificationResponse> __Method_SendALotNotifications = new grpc::Method<global::TelegramNotificationServiceApp.SendALotNotificationRequest, global::TelegramNotificationServiceApp.SendNotificationResponse>(
+        grpc::MethodType.ServerStreaming,
+        __ServiceName,
+        "SendALotNotifications",
+        __Marshaller_notification_SendALotNotificationRequest,
         __Marshaller_notification_SendNotificationResponse);
 
     /// <summary>Service descriptor</summary>
@@ -74,6 +84,12 @@ namespace TelegramNotificationServiceApp {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
 
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task SendALotNotifications(global::TelegramNotificationServiceApp.SendALotNotificationRequest request, grpc::IServerStreamWriter<global::TelegramNotificationServiceApp.SendNotificationResponse> responseStream, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
     }
 
     /// <summary>Creates service definition that can be registered with a server</summary>
@@ -82,7 +98,8 @@ namespace TelegramNotificationServiceApp {
     public static grpc::ServerServiceDefinition BindService(TelegramNotificationServiceBase serviceImpl)
     {
       return grpc::ServerServiceDefinition.CreateBuilder()
-          .AddMethod(__Method_SendNotification, serviceImpl.SendNotification).Build();
+          .AddMethod(__Method_SendNotification, serviceImpl.SendNotification)
+          .AddMethod(__Method_SendALotNotifications, serviceImpl.SendALotNotifications).Build();
     }
 
     /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the service binding logic.
@@ -93,6 +110,7 @@ namespace TelegramNotificationServiceApp {
     public static void BindService(grpc::ServiceBinderBase serviceBinder, TelegramNotificationServiceBase serviceImpl)
     {
       serviceBinder.AddMethod(__Method_SendNotification, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::TelegramNotificationServiceApp.SendNotificationRequest, global::TelegramNotificationServiceApp.SendNotificationResponse>(serviceImpl.SendNotification));
+      serviceBinder.AddMethod(__Method_SendALotNotifications, serviceImpl == null ? null : new grpc::ServerStreamingServerMethod<global::TelegramNotificationServiceApp.SendALotNotificationRequest, global::TelegramNotificationServiceApp.SendNotificationResponse>(serviceImpl.SendALotNotifications));
     }
 
   }

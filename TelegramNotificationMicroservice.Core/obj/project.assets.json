@@ -852,11 +852,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\code\\codes\\TelegramNotificationMicroservice\\TelegramNotificationMicroservice.Core\\TelegramNotificationMicroservice.Core.csproj",
+      "projectUniqueName": "D:\\code\\projects\\TelegramNotificationMicroservice\\TelegramNotificationMicroservice.Core\\TelegramNotificationMicroservice.Core.csproj",
       "projectName": "TelegramNotificationMicroservice.Core",
-      "projectPath": "D:\\code\\codes\\TelegramNotificationMicroservice\\TelegramNotificationMicroservice.Core\\TelegramNotificationMicroservice.Core.csproj",
+      "projectPath": "D:\\code\\projects\\TelegramNotificationMicroservice\\TelegramNotificationMicroservice.Core\\TelegramNotificationMicroservice.Core.csproj",
       "packagesPath": "C:\\Users\\anyon\\.nuget\\packages\\",
-      "outputPath": "D:\\code\\codes\\TelegramNotificationMicroservice\\TelegramNotificationMicroservice.Core\\obj\\",
+      "outputPath": "D:\\code\\projects\\TelegramNotificationMicroservice\\TelegramNotificationMicroservice.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\anyon\\AppData\\Roaming\\NuGet\\NuGet.Config"

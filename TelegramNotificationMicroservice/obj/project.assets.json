@@ -1828,11 +1828,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\code\\codes\\TelegramNotificationMicroservice\\TelegramNotificationMicroservice\\TelegramNotificationMicroservice.csproj",
+      "projectUniqueName": "D:\\code\\projects\\TelegramNotificationMicroservice\\TelegramNotificationMicroservice\\TelegramNotificationMicroservice.csproj",
       "projectName": "TelegramNotificationMicroservice",
-      "projectPath": "D:\\code\\codes\\TelegramNotificationMicroservice\\TelegramNotificationMicroservice\\TelegramNotificationMicroservice.csproj",
+      "projectPath": "D:\\code\\projects\\TelegramNotificationMicroservice\\TelegramNotificationMicroservice\\TelegramNotificationMicroservice.csproj",
       "packagesPath": "C:\\Users\\anyon\\.nuget\\packages\\",
-      "outputPath": "D:\\code\\codes\\TelegramNotificationMicroservice\\TelegramNotificationMicroservice\\obj\\",
+      "outputPath": "D:\\code\\projects\\TelegramNotificationMicroservice\\TelegramNotificationMicroservice\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\anyon\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1849,8 +1849,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\code\\codes\\TelegramNotificationMicroservice\\TelegramNotificationMicroservice.Application\\TelegramNotificationMicroservice.Application.csproj": {
-              "projectPath": "D:\\code\\codes\\TelegramNotificationMicroservice\\TelegramNotificationMicroservice.Application\\TelegramNotificationMicroservice.Application.csproj"
+            "D:\\code\\projects\\TelegramNotificationMicroservice\\TelegramNotificationMicroservice.Application\\TelegramNotificationMicroservice.Application.csproj": {
+              "projectPath": "D:\\code\\projects\\TelegramNotificationMicroservice\\TelegramNotificationMicroservice.Application\\TelegramNotificationMicroservice.Application.csproj"
             }
           }
         }

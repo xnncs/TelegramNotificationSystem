@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Uzc+6Ee1el4=",
+  "dgSpecHash": "k+/pls3BfyY=",
   "success": true,
-  "projectFilePath": "D:\\code\\codes\\TelegramNotificationMicroservice\\TelegramNotificationMicroservice.Core\\TelegramNotificationMicroservice.Core.csproj",
+  "projectFilePath": "D:\\code\\projects\\TelegramNotificationMicroservice\\TelegramNotificationMicroservice.Core\\TelegramNotificationMicroservice.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\anyon\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.0\\microsoft.extensions.configuration.6.0.0.nupkg.sha512",
     "C:\\Users\\anyon\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",

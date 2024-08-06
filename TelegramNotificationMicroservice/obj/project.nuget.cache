@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oltBISIwurk=",
+  "dgSpecHash": "sGNa3KUaFGc=",
   "success": true,
-  "projectFilePath": "D:\\code\\codes\\TelegramNotificationMicroservice\\TelegramNotificationMicroservice\\TelegramNotificationMicroservice.csproj",
+  "projectFilePath": "D:\\code\\projects\\TelegramNotificationMicroservice\\TelegramNotificationMicroservice\\TelegramNotificationMicroservice.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\anyon\\.nuget\\packages\\google.protobuf\\3.27.0\\google.protobuf.3.27.0.nupkg.sha512",
     "C:\\Users\\anyon\\.nuget\\packages\\grpc.aspnetcore\\2.65.0\\grpc.aspnetcore.2.65.0.nupkg.sha512",

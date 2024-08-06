@@ -1241,11 +1241,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\code\\codes\\TelegramNotificationMicroservice\\TelegramNotificationMicroservice.Application\\TelegramNotificationMicroservice.Application.csproj",
+      "projectUniqueName": "D:\\code\\projects\\TelegramNotificationMicroservice\\TelegramNotificationMicroservice.Application\\TelegramNotificationMicroservice.Application.csproj",
       "projectName": "TelegramNotificationMicroservice.Application",
-      "projectPath": "D:\\code\\codes\\TelegramNotificationMicroservice\\TelegramNotificationMicroservice.Application\\TelegramNotificationMicroservice.Application.csproj",
+      "projectPath": "D:\\code\\projects\\TelegramNotificationMicroservice\\TelegramNotificationMicroservice.Application\\TelegramNotificationMicroservice.Application.csproj",
       "packagesPath": "C:\\Users\\anyon\\.nuget\\packages\\",
-      "outputPath": "D:\\code\\codes\\TelegramNotificationMicroservice\\TelegramNotificationMicroservice.Application\\obj\\",
+      "outputPath": "D:\\code\\projects\\TelegramNotificationMicroservice\\TelegramNotificationMicroservice.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\anyon\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1262,8 +1262,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\code\\codes\\TelegramNotificationMicroservice\\TelegramNotificationMicroservice.Persistence\\TelegramNotificationMicroservice.Persistence.csproj": {
-              "projectPath": "D:\\code\\codes\\TelegramNotificationMicroservice\\TelegramNotificationMicroservice.Persistence\\TelegramNotificationMicroservice.Persistence.csproj"
+            "D:\\code\\projects\\TelegramNotificationMicroservice\\TelegramNotificationMicroservice.Persistence\\TelegramNotificationMicroservice.Persistence.csproj": {
+              "projectPath": "D:\\code\\projects\\TelegramNotificationMicroservice\\TelegramNotificationMicroservice.Persistence\\TelegramNotificationMicroservice.Persistence.csproj"
             }
           }
         }

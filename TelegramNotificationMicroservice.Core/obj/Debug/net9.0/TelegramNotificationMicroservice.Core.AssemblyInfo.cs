@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TelegramNotificationMicroservice.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aace5922bb1d25a4e971b4171dfc9c6ace5df968")]
 [assembly: System.Reflection.AssemblyProductAttribute("TelegramNotificationMicroservice.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TelegramNotificationMicroservice.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

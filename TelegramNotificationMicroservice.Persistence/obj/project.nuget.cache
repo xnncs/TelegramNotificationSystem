@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D2so7qHfpns=",
+  "dgSpecHash": "8X+/KSKpISs=",
   "success": true,
-  "projectFilePath": "D:\\code\\codes\\TelegramNotificationMicroservice\\TelegramNotificationMicroservice.Persistence\\TelegramNotificationMicroservice.Persistence.csproj",
+  "projectFilePath": "D:\\code\\projects\\TelegramNotificationMicroservice\\TelegramNotificationMicroservice.Persistence\\TelegramNotificationMicroservice.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\anyon\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\anyon\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

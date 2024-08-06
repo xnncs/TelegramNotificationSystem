@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bCypq4n+zzI=",
+  "dgSpecHash": "5EoZ/iufDAo=",
   "success": true,
-  "projectFilePath": "D:\\code\\codes\\TelegramNotificationMicroservice\\TelegramNotificationMicroservice.Application\\TelegramNotificationMicroservice.Application.csproj",
+  "projectFilePath": "D:\\code\\projects\\TelegramNotificationMicroservice\\TelegramNotificationMicroservice.Application\\TelegramNotificationMicroservice.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\anyon\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.7\\microsoft.entityframeworkcore.8.0.7.nupkg.sha512",
     "C:\\Users\\anyon\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.7\\microsoft.entityframeworkcore.abstractions.8.0.7.nupkg.sha512",
